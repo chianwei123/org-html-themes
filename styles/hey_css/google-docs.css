@@ -1,0 +1,112 @@
+html,body
+{
+    font-family:sans-serif;
+}
+
+
+html,body
+{
+	font-family:sans-serif;
+color:#333;
+width:80%;
+margin-left:auto;
+margin-right:auto;
+}
+
+p
+{
+  margin-bottom:1em;}
+
+
+
+pre {
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: normal !important;       /* Internet Explorer 5.5+ */
+    text-align: left;
+    font-family: Monaco, Helvetica, sans-serif;
+    color: #3f3f3f;
+width:500px;
+    font-size:70%;
+    font-style:italic;
+}
+
+blockquote
+{
+    word-wrap: normal !important;       /* Internet Explorer 5.5+ */
+    text-align: left;
+    font-family: Monaco, Helvetica, sans-serif;
+    color: #3f3f3f;
+width:500px;
+    font-size:70%;
+    font-style:italic;
+}
+
+
+pre p, blockquote p
+{
+    font-family: Monaco, Helvetica, sans-serif;
+    font-size:70%;
+}
+
+pre strong, blockquote strong
+{
+    color: #c61800;
+    font-style:normal;
+}
+
+pre em, blockquote em
+{
+    color: #18a600;
+    font-style:normal;
+}
+
+
+a
+{
+    -webkit-transition:color .5s linear;
+    text-decoration:none;
+    color:#05ADF3;
+}
+
+a:hover
+{
+    color:red;
+}
+
+
+blockquote p {
+    padding-left: 1em;
+    margin-left:1em;
+border-left: 1px grey solid;
+font-family:sans-serif;
+font-size:80%;
+font-style:normal;
+font-size:12pt !important;
+}
+
+
+h1, h2, h3, h4, h5, h6
+{font-family:Roboto;}
+
+
+
+
+
+
+
+h1:first-letter, h2:first-letter, h3:first-letter, h4:first-letter, h5:first-letter
+{
+text-transform:capitalize;
+}
+
+
+.footdef p
+{display:inline;}
+
+
+blockquote
+{    margin-left: 2em !important;
+}
